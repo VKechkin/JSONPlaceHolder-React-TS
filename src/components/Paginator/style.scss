@@ -1,0 +1,21 @@
+.container-pagination {
+  padding: 10px 0;
+
+  .paginationInfo {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  .page-link {
+    border-color: brown;
+    padding: 1px;
+  }
+
+  .active {
+    width: 25px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+  }
+}
